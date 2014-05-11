@@ -1,0 +1,38 @@
+
+img {
+  border-radius: 4px;
+}
+
+canvas {
+  border: thin solid #aaa;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+#contents {
+  position: absolute;
+  bottom: 200px;
+  width: 90%;
+  overflow: auto;
+}
+
+#control {
+  position: absolute;
+  height: 60px;
+  bottom: 80px;
+  width: 90%;
+}
+
+#from {
+	color: DeepSkyBlue;
+}
+
+#to {
+	color: blue;
+}
+.sysMsg {
+	color: #C03;
+}
+
+.two {
+	color: blue;
+}
