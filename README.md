@@ -1,6 +1,6 @@
 #Chat&Paint
 
-软件服务器架设在腾讯云上，DEMO地址[http://chat.mirreal.net](http://chat.mirreal.net)，点击即可查看。
+软件服务器架设在腾讯云上，DEMO地址[http://chat.mirreal.net](http://chat.mirreal.net)
 
 #功能与使用说明
 ##多人聊天及私密对话
@@ -14,7 +14,7 @@
 
 在底部是一个功能选项卡，点击[聊天]则进入聊天界面。
 
-![](public/img/chat1.jpg)
+![](public/img/chat1.min.jpg)
 
 你会看到系统消息，默认是红色字体。
 
@@ -84,6 +84,7 @@ WebSocket是HTML5开始提供的一种浏览器与服务器间进行全双工通
 - 接入MongoDB，将数据存入数据库中
 - 文件传输
 - 更完善的私密对话
+- 动态表情
 
 ...
 
