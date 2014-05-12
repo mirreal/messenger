@@ -14,7 +14,7 @@
 
 在底部是一个功能选项卡，点击[聊天]则进入聊天界面。
 
-![](public/img/chat1.min.jpg)
+![](public/img/chat1.jpg)
 
 你会看到系统消息，默认是红色字体。
 
