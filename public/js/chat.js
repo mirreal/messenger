@@ -23,7 +23,7 @@ $(function() {
     }
 
     if (data.to == from) {
-      $("#contents").append('<div class="two">' + data.from + '(' + now() + ')对你说：<br/>' + data.msg + '</div><br />');
+      $("#contents").append('<div class="two"><img src="img/vincent.jpg" width="32"></img>' + data.from + '(' + now() + ')对你说：<br/>' + data.msg + '</div><br />');
     }
   });
 
@@ -86,7 +86,7 @@ $(function() {
     if (to == "all") {
       $("#contents").append('<div id="cont"><img src="img/vincent.jpg" width="32"> </img>你(' + now() + ')对所有人说：<br/>' + msg + '</div><br />');
     } else {
-      $("#contents").append('<div class="two">你(' + now() + ')对 ' + to + ' 说：<br/>' + msg + '</div><br />');
+      $("#contents").append('<div class="two"><img src="img/vincent.jpg" width="32"></img>你(' + now() + ')对 ' + to + ' 说：<br/>' + msg + '</div><br />');
     }
     socket.emit('message', {from: from, to: to, msg: msg});
     $("#cont").focus();
