@@ -1,9 +1,11 @@
-#Chat&Paint
+# messager
 
-软件服务器架设在腾讯云上，DEMO地址[http://chat.mirreal.net](http://chat.mirreal.net)
+[DEMO地址](http://mx.mirreal.net)
 
-#功能与使用说明
-##多人聊天及私密对话
+## 功能与使用说明
+
+### 多人聊天及私密对话
+
 ![login](public/img/login.jpg)
 
 首次进入需要登陆，输入用户名之后点击[登陆]即可计入主界面。
@@ -32,7 +34,7 @@
 
 ![](public/img/chat5.jpg)
 
-##多人绘图板
+### 多人绘图板
 
 在底部选项卡，点击最右侧的[绘图板]即可进入。
 
@@ -49,33 +51,41 @@
 点击[clear]将清除画布所有内容。
 
 
-#开发技术与框架说明
-##概述
-服务器端使用Node.js平台开发，并且使用其库Socket.io和Express。
+## 开发技术与框架说明
 
-前端采用Javascript库Jquery Mobile。绘图部分用HTML5 Canvas进行绘图控制。
+### 概述
 
-最后用Android的Webview控件进行封装并打包。
+服务器端使用 Node.js 平台开发，并且使用其库 Socket.io 和 Express。
 
-##1.Node.js
-一个事件驱动I/O服务端JavaScript环境，基于Google Chrome V8引擎，近年来最受关注的平台。
+前端采用 Javascript 库 Jquery Mobile。绘图部分用 HTML5 Canvas 进行绘图控制。
 
-##2.Socket.io
-Socket.io是Node.js的一个库，包括Server和Client，对HTML5 WebSocket接口封装，提供简洁的API，能够实现实时响应，还可以对不支持WebSocket的进行降级处理，以及对超时等功能的支持。
+最后用 Android 的 Webview 控件进行封装并打包。
 
-##3.Express
-Node.js上最流行的Web框架，也是官方唯一推荐。
+### 1.Node.js
 
-##4.Jquery Mobile
-流行Js库Jquery的移动版，是一个为触控优化的框架，用于创建移动应用程序。
+一个事件驱动 I/O 服务端 JavaScript 环境，基于 Google Chrome V8 引擎，近年来最受关注的平台。
 
-##5.HTML5 Canvas
-HTML5中最令人兴奋的技术之一，为浏览器提供原生绘图功能，包含一个2D上下文和3D的WebGl。
+### 2.Socket.io
 
-##6.HTML5 WebSocket
-WebSocket是HTML5开始提供的一种浏览器与服务器间进行全双工通讯的网络技术。
+Socket.io 是 Node.js 的一个库，包括 Server 和 Client，对 HTML5 WebSocket 接口封装，提供简洁的 API，能够实现实时响应，还可以对不支持 WebSocket 的进行降级处理，以及对超时等功能的支持。
 
-#项目展望
+### 3.Express
+
+Node.js 上最流行的Web框架，也是官方唯一推荐。
+
+### 4.Jquery Mobile
+
+流行 Js 库 Jquery 的移动版，是一个为触控优化的框架，用于创建移动应用程序。
+
+### 5.HTML5 Canvas
+
+HTML5 中最令人兴奋的技术之一，为浏览器提供原生绘图功能，包含一个 2D 上下文和 3D 的 WebGl。
+
+### 6.HTML5 WebSocket
+
+WebSocket 是 HTML5 开始提供的一种浏览器与服务器间进行全双工通讯的网络技术。
+
+## 项目展望
 
 目前还很基础，例如没有保存数据，功能比较简陋。
 
